@@ -1,83 +1,35 @@
-# Recorridos de Árboles Binarios - Estructura de Datos
+#  Recorridos de Árboles Binarios - Estructura de Datos
 
-**Universidad Técnica de Ambato**  
-**Carrera:** Ingeniería de Software  
+**Universidad Técnica de Ambato** **Carrera:** Ingeniería de Software  
 **Asignatura:** Estructura de Datos  
 **Curso:** Tercero B  
-**Tema:** Recorridos de árboles binarios: Inorden, Preorden, Postorden y BFS
+**Integrantes:** Toapanta Paucar Pablo Daniel 
+**Tema:** Recorridos Inorden, Preorden, Postorden y BFS  
 
-## Objetivo general
-Implementar y analizar los principales recorridos de árboles binarios utilizando C++ y Java, aplicando estructuras de datos dinámicas, recursividad y colas.
+---
 
-## Resultados de aprendizaje
-Al finalizar la práctica, el estudiante será capaz de:
+##  Objetivo de la Práctica
+Implementar y analizar los principales recorridos de árboles binarios (DFS y BFS) en C++ y Java. Esta práctica incluye la creación de un menú interactivo que resuelve 5 ejercicios prácticos, incluyendo la manipulación de nodos, conteo de hojas y la aplicación de árboles a un caso real de arquitectura de software.
 
-1. Explicar la diferencia entre recorridos DFS y BFS.
-2. Implementar recorridos Inorden, Preorden y Postorden con recursividad.
-3. Implementar BFS usando una cola.
-4. Comparar la implementación en C++ y Java.
-5. Aplicar recorridos de árboles a un caso real del proyecto final.
+##  Características Implementadas
+Se ha mejorado el código base incorporando:
+1. **Menú interactivo:** Navegación amigable por consola para ejecutar cada ejercicio de forma independiente.
+2. **Arte ASCII:** Representación visual de los árboles en la consola para facilitar el seguimiento de los recorridos.
+3. **Estructuras Personalizadas:** Creación de un `NodoString` específico para representar cadenas de texto en el caso de uso real (Módulos del Sistema Web).
+4. **Validación de Entradas:** Manejo de errores en caso de que el usuario ingrese caracteres no válidos en el menú.
 
-## Contenido
+---
 
-| Carpeta | Descripción |
-|---|---|
-| `docs/` | Guía práctica para la clase |
-| `src/cpp/` | Implementación completa en C++ |
-| `src/java/` | Implementación completa en Java |
-| `exercises/` | Ejercicios para trabajo grupal |
-| `moodle/` | Banco de preguntas tipo Moodle |
-| `assets/` | Recursos de apoyo |
+## Instrucciones de Ejecución
 
-## Reglas de recorrido
-
-| Recorrido | Orden |
-|---|---|
-| Inorden | Izquierda → Raíz → Derecha |
-| Preorden | Raíz → Izquierda → Derecha |
-| Postorden | Izquierda → Derecha → Raíz |
-| BFS | Nivel por nivel usando cola |
-
-## Ejecución en C++
-
+### En C++
+Ubicarse en la carpeta raíz del proyecto y ejecutar:
 ```bash
 cd src/cpp
 g++ main.cpp -o recorridos
 ./recorridos
 ```
-
-## Ejecución en Java
-
-```bash
+### En Java
 cd src/java
 javac Main.java
 java Main
-```
-
-## Actividad  sugerida:
-
-1. Clonar el repositorio.
-2. Ejecutar el código base.
-3. Agregar mínimo 5 nodos nuevos.
-4. Mostrar los cuatro recorridos.
-5. Modificar el caso de aplicación al proyecto final.
-6. Subir evidencias al repositorio GitHub del grupo.
-
-## Entregables
-
-- Captura de ejecución en consola.
-- Código fuente comentado.
-- README del grupo.
-- Explicación del caso real.
-- Link del repositorio GitHub.
-
-## Rúbrica breve sobre 10 puntos
-
-| Criterio | Puntaje |
-|---|---:|
-| Implementación correcta de recorridos | 3 |
-| Uso correcto de recursividad y cola | 2 |
-| Código comentado y organizado | 1.5 |
-| Aplicación al proyecto final | 2 |
-| Uso de GitHub e IA documentada | 1.5 |
-
